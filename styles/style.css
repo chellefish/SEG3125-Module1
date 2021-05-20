@@ -1,6 +1,7 @@
 /* Style sheet
    color picker www.w3schools.com/colors/colors_picker.asp
 */
+@import url('https://fonts.googleapis.com/css?family=Oswald|Noto+Sans');
 
 html {
   background-color: #ffb6b9;
@@ -12,7 +13,7 @@ body {
 
 h1 {
 	font-size: 60px;
-  font-family: Helvetica, sans-serif;
+  font-family: Oswald, sans-serif;
 	text-align: center;
 	margin: 0;
 	padding: 20px 0;
@@ -26,7 +27,7 @@ img {
 }
 
 p {
-  color: red;
+  color: white;
 }
 
 table {
@@ -37,6 +38,8 @@ table {
 /* Defining styling for a specific element type - each question */
 .question {
   background-color: black;
+  font-family: "Noto Sans" sans-serif;
+  font-size: 20px;
   color: white;
   margin: 20px;
   padding: 20px;
