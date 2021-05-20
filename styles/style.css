@@ -38,7 +38,7 @@ table {
 /* Defining styling for a specific element type - each question */
 .question {
   background-color: black;
-  font-family: "Noto Sans" sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 20px;
   color: white;
   margin: 20px;
