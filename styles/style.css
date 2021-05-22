@@ -6,7 +6,12 @@
    bbded6
    61c0bf
 */
-@import url('fonts.googleapis.com/css?family=Oswald|Noto+Sans');
+@import url('http://fonts.googleapis.com/css?family=Oswald|Noto+Sans');
+
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+}
 
 html {
   background-color: #fae3d9;
@@ -14,6 +19,11 @@ html {
 
 body {
   background-color: #fae3d9;
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
 }
 
 h1 {
@@ -24,6 +34,11 @@ h1 {
 	padding: 40px 0;
 	color: #FFFFFF;  /* white text */
   background: #61c0bf
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
 }
 h2 {
   font-family: "Noto Sans", sans-serif;
@@ -33,6 +48,11 @@ h2 {
   margin: 0px;
   padding: 20px;
   background-color: #ffb6b9
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
 }
 h3 {
   font-family: "Noto Sans", sans-serif;
@@ -41,6 +61,11 @@ h3 {
   color: white;
   margin: 0px;
   padding: 20px;
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
 
 }
 
