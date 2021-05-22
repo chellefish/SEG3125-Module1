@@ -6,9 +6,6 @@
    bbded6
    61c0bf
 */
-@import url('http://fonts.googleapis.com/css?family=Lato|Oswald');
-
-
 
 html {
   background-color: #fae3d9;
@@ -26,15 +23,16 @@ body {
 
 h1 {
 	font-size: 60px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
 	text-align: center;
 	margin: 0;
 	padding: 40px 0;
 	color: #FFFFFF;  /* white text */
   background: #61c0bf
+
 }
 h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   text-align: center;
   color: black;
@@ -43,7 +41,7 @@ h2 {
   background-color: #ffb6b9
 }
 h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   text-align: center;
   color: white;
@@ -70,7 +68,7 @@ table {
 /* Defining styling for a specific element type - each question */
 .question {
   background-color: #bbded6;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   color: text;
   padding: 20px;
@@ -101,6 +99,6 @@ table {
 #signature {
   text-align: right;
   color: black;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 75%;
 }
