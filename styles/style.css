@@ -1,14 +1,19 @@
 /* Style sheet
    color picker www.w3schools.com/colors/colors_picker.asp
+   colours:
+   ffb6b9
+   fae3d9
+   bbded6
+   61c0bf
 */
 @import url('http://fonts.googleapis.com/css?family=Oswald|Noto+Sans');
 
 html {
-  background-color: #ffb6b9;
+  background-color: #fae3d9;
 }
 
 body {
-  background-color: #ffb6b9;
+  background-color: #fae3d9;
 }
 
 h1 {
@@ -16,8 +21,27 @@ h1 {
   font-family: Oswald, sans-serif;
 	text-align: center;
 	margin: 0;
-	padding: 20px 0;
+	padding: 40px 0;
 	color: #FFFFFF;  /* white text */
+  background: #61c0bf
+}
+h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  margin: 0px;
+  padding: 20px;
+  background-color: #ffb6b9
+}
+h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  padding: 20px;
+
 }
 
 img {
@@ -27,7 +51,7 @@ img {
 }
 
 p {
-  color: white;
+  color: black;
 }
 
 table {
@@ -37,30 +61,38 @@ table {
 
 /* Defining styling for a specific element type - each question */
 .question {
-  background-color: black;
+  background-color: #bbded6;
   font-family: "Noto Sans", sans-serif;
   font-size: 20px;
-  color: white;
-  margin: 20px;
+  color: text;
   padding: 20px;
 }
+
 
 /* Defining styling for a specific element type - large block buttons */
 .block {
   display: block;
-  width: 100%;
+  width: 50%;
   border: none;
-  background-color: #ffff66;  /* yellow */
+  background-color: #61c0bf;  /* yellow */
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
+.selection{
+  text-align: center;
+}
+.text {
+  text-align: center;
 
+}
 /* Defining styling for a specific element with an id */
 #signature {
   text-align: right;
-  color: red;
-  font-style: italic;
+  color: black;
+  font-family: "Noto Sans", sans-serif;
   font-size: 75%;
 }
