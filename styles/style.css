@@ -6,7 +6,11 @@
    bbded6
    61c0bf
 */
-@import url('http://fonts.googleapis.com/css?family=Lato|Montserrat');
+@import url('http://fonts.googleapis.com/css?family=Lato');
+@font-face {
+  font-family: 'Oswald';
+  src: url("/fonts/Oswald-Bold.ttf") format("ttf");
+}
 
 
 html {
@@ -25,7 +29,7 @@ body {
 
 h1 {
 	font-size: 60px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
 	text-align: center;
 	margin: 0;
 	padding: 40px 0;
